@@ -18,6 +18,11 @@ export default function Nav() {
       <Link href="/users" className={pathname === "/users" ? "active" : ""}>
         Users
       </Link>
+      <Link
+        href="/posts/create"
+        className={pathname === "/posts/create" ? "active" : ""}>
+        Create Post
+      </Link>
     </nav>
   );
 }
