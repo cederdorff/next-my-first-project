@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "../page.module.css";
 
 export default function Posts() {
@@ -7,9 +8,15 @@ export default function Posts() {
         <h1>Posts</h1>
         <p>Here is a list of posts.</p>
         <ol>
-          <li>Post 1</li>
-          <li>Post 2</li>
-          <li>Post 3</li>
+          <li>
+            <Link href="/posts/1">Post 1</Link>
+          </li>
+          <li>
+            <Link href="/posts/2">Post 2</Link>
+          </li>
+          <li>
+            <Link href="/posts/3">Post 3</Link>
+          </li>
         </ol>
       </main>
     </div>
