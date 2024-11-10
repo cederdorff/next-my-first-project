@@ -77,3 +77,8 @@ nav a.active {
   background-color: #fff;
   color: #333;
 }
+
+.post-image {
+  width: 100%;
+  height: auto;
+}
